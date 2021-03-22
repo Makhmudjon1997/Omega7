@@ -558,7 +558,39 @@ img {
     }
 
     .container{
-        width: 94%;
+        width: 500px;
+    }
+
+    .travel-text, .trip-text, .user-text, .app-text, .world-text,.experience-text {
+        font-size: 16px;
+    }
+
+    .travel-title, .trip-title, .world-title, .experience-title, .app-title {
+        font-size: 30px;
+    }
+
+    .travel-text{
+        padding: 15px 0;
+    }
+
+    .form-control{
+        padding: 10px 15px;
+    }
+
+
+    .form-link{
+        text-align: center;
+        width: 35%;
+        padding: 4px 20px;
+        font-size: 12px;
+        transform: translate(-100%, 4%);
+    }
+
+    .form-icon{
+        width: 17px;
+        padding-right: 5px;
+        top: 4px;
+        left: 2px;
     }
 }
 
@@ -566,6 +598,28 @@ img {
     .container-fluid {
         width: 94%;
         margin: 0 auto;
+    }
+
+    .container {
+        width: 300px;
+        margin-left: 0 auto;
+    }
+
+    .travel-text, .trip-text, .user-text, .app-text, .world-text,.experience-text,.trip-box-info-text, .user-name, .user-text {
+        font-size: 10px;
+        line-height: 1.5;
+    }
+
+    .travel-title, .header-title, .trip-title, .world-title, .experience-title, .app-title, .footer-back, .trip-box-info-title {
+        font-size: 18px;
+    }
+
+    .number-img{
+        width: 25px;
+    }
+
+    .app-link{
+        width: 30%;
     }
 
     .header-link{
@@ -578,5 +632,71 @@ img {
 
     .nav-list {
         display: none;
+    }
+
+    .form-control{
+        padding: 5px 10px;
+    }
+
+    .form-control::placeholder{
+        font-size: 10px;
+    }
+
+
+    .form-link{
+        text-align: center;
+        width: 30%;
+        padding: 0px;
+        font-size: 10px;
+        transform: translate(-100%, 4%);
+    }
+
+    .form-icon{
+        width: 15px;
+        padding-right: 5px;
+        top: 4px;
+        left: 2px;
+    }
+
+    .footer-text{
+        font-size: 10px;.
+    }
+
+    .footer-list{
+        margin-left: 25px;
+    }
+
+    .footer-item{
+        font-size: 12px;
+    }
+
+    .experience-link{
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+
+    .rating>label {
+        position: relative;
+        width: 1em;
+        font-size: 20px;
+        color: #FFD600;
+        cursor: pointer
+    }
+
+    .nav-menu{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .header-link{
+        
+    }
+
+    .app, .experience, .world, .trip{
+        padding: 30px 0;
+    }
+
+    .trip-info{
+        margin: 0 auto;
+        
     }
 }
