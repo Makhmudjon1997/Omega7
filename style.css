@@ -22,7 +22,7 @@ img {
 }
 
 .container-fluid {
-    width: 1240px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -413,4 +413,170 @@ img {
 .footer-text{
     color: black;
     margin-left: -200px;
+}
+
+.nav-menu {
+    display: none;
+    padding: 10px;
+}
+
+@media (max-width: 1320px){
+    .container-fluid {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1220px){
+    .container-fluid {
+        width: 1100px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1160px){
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1120px){
+    .container-fluid {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1020px){
+    .container-fluid {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .footer-text{
+        margin: 0;
+    }
+}
+
+@media (max-width: 920px){
+    .container-fluid {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .container{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .travel-title, .trip-title, .world-title, .experience-title, .app-title {
+        font-size: 40px;
+    }
+
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-text{
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 820px){
+    .container-fluid {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .container{
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .travel-text, .trip-text, .user-text, .app-text, .world-text,.experience-text {
+        font-size: 18px;
+    }
+
+    .iphone1, .iphone2 , .iphone3{
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 720px){
+    .container-fluid {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .form-link{
+        text-align: center;
+        width: 30%;
+        padding: 1px 30px;
+        font-size: 14px;
+        transform: translate(-110%, 15%);
+    }
+
+    .form-control{
+        padding: 15px 20px;
+    }
+
+    .form-control::placeholder{
+        font-size: 14px;
+    }
+
+    .form-icon{
+        width: 15px;
+    }
+
+    .world-image{
+        width: 45%;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 620px){
+    .container-fluid {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .header-link{
+        display: none;
+    }
+
+    .container{
+        width: 94%;
+    }
+}
+
+@media (max-width: 420px){
+    .container-fluid {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .header-link{
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+    }
 }
