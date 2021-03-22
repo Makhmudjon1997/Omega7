@@ -75,7 +75,9 @@ img {
 }
 
 .header-link:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    color: red;
+    background-color: rgb(218, 216, 216);
 }
 
 
@@ -127,6 +129,11 @@ img {
     position: absolute;
     border-radius: 5px;
     transform: translate(-105%, 15%);
+}
+
+.form-link:hover{
+    color: red;
+    background-color: rgb(207, 204, 204);
 }
 
 .form-icon{
@@ -311,6 +318,11 @@ img {
     border-radius: 5px;
 }
 
+.experience-link:hover{
+    color: red;
+    background-color: rgb(207, 204, 204);
+}
+
 .bg-image{
     background-image: url("https://picsum.photos/1040");
     background-repeat: no-repeat;
@@ -368,7 +380,8 @@ img {
 }
 
 .app-link:hover{
-    box-shadow:  0px 2px 10px rgb(61, 61, 59);
+    box-shadow:  5px 5px 10px rgb(173, 173, 170);
+    transition: 0.7s;
 }
 
 .app-link > img{
