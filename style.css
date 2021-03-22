@@ -534,6 +534,19 @@ img {
         margin: 0 auto;
     }
 
+    .travel .container{
+        flex-direction: column;
+    }
+
+    .travel-info{
+        text-align: center;
+    }
+
+    .iphone1{
+        width: 150px;
+        padding-bottom: 20px;
+    }
+
     .form-link{
         text-align: center;
         width: 30%;
@@ -564,6 +577,19 @@ img {
     .container-fluid {
         width: 94%;
         margin: 0 auto;
+    }
+
+    .travel .container{
+        flex-direction: column;
+    }
+
+    .travel-info{
+        text-align: center;
+    }
+
+    .iphone1{
+        width: 150px;
+        padding-bottom: 20px;
     }
 
     .header-link{
@@ -616,6 +642,19 @@ img {
     .container {
         width: 300px;
         margin-left: 0 auto;
+    }
+
+    .travel .container{
+        flex-direction: column;
+    }
+
+    .travel-info{
+        text-align: center;
+    }
+
+    .iphone1{
+        width: 150px;
+        padding-bottom: 20px;
     }
 
     .travel-text, .trip-text, .user-text, .app-text, .world-text,.experience-text,.trip-box-info-text, .user-name, .user-text {
@@ -757,6 +796,19 @@ img {
     .container{
         width: 97%;
         margin: 0 auto;
+    }
+
+    .travel .container{
+        flex-direction: column;
+    }
+
+    .travel-info{
+        text-align: center;
+    }
+
+    .iphone1{
+        width: 70px;
+        padding-bottom: 20px;
     }
 
     .bg-image{
