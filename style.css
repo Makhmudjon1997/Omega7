@@ -650,10 +650,11 @@ img {
 
     .travel-info{
         text-align: center;
+        width: 90%;
     }
 
     .iphone1{
-        width: 150px;
+        width: 100px;
         padding-bottom: 20px;
     }
 
@@ -698,9 +699,9 @@ img {
     .form-link{
         text-align: center;
         width: 30%;
-        padding: 0px;
+        padding: 5px;
         font-size: 10px;
-        transform: translate(-100%, 4%);
+        transform: translate(-105%, 10%);
     }
 
     .form-icon{
@@ -807,7 +808,7 @@ img {
     }
 
     .iphone1{
-        width: 70px;
+        width: 50px;
         padding-bottom: 20px;
     }
 
